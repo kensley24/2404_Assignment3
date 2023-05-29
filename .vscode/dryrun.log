@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/darryl/Dropbox/classes21/comp2404/assignments-f22/assignment3/a3/a3-uber/a3-route'
+g++ -c main.cc 
+g++ -c Controller.cc
+g++ -c View.cc
+g++ -c CoVoiture.cc
+g++ -c User.cc
+g++ -c Drawable.cc
+g++ -c CustomerList.cc
+g++ -c DriverList.cc
+g++ -c DrawList.cc
+g++ -c Driver.cc 
+g++ -c Customer.cc
+g++ -c Building.cc
+g++ -c Location.cc
+g++ -o a3 main.o Controller.o View.o CoVoiture.o User.o Drawable.o CustomerList.o DriverList.o DrawList.o Driver.o Customer.o Building.o Location.o -lncurses
+make: Leaving directory '/home/darryl/Dropbox/classes21/comp2404/assignments-f22/assignment3/a3/a3-uber/a3-route'
+ 

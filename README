@@ -1,0 +1,40 @@
+Kensley Schonauer
+101183280
+
+src files:
+
+Location.cc Location.h -location object with x, y coordinates to be used by other classes
+
+Order.cc Order.h -Order object with location, name and menuItem to be used by other classes
+
+Queue.cc Queue.h -creates a Queue with functionality of first in first out collection
+
+Entity.cc Entity.h -superclass with list of Orders and a Location object
+                   -Functionality such as getting/adding and removing Order from Order list
+
+Franchise.cc Franchise.h -subclass of Entity with static members and functionality
+
+Driver.cc Driver.h -subclass of Entity with static members
+
+Pierres.cc Pierres.h -uses list of Franchise and Driver
+                     -functionality such as adding Driver or Franchise to the lists,
+                     taking an order and delivering said order
+
+Controller.cc Controller.h -Controls the interaction of Pierres with the View
+
+View.cc View.h -Provides a user menu, takes input, and gives output
+
+main.cc -runs Controller
+
+defs.h -holds constants such as MENU_ITEMS numbers
+
+Makefile
+
+compilation instructions:
+make
+
+launching instructions:
+./a3
+
+cleaning instructions:
+make clean
